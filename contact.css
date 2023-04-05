@@ -1,0 +1,65 @@
+ .contacts__me  {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+ }
+
+ .contacts__me__info h2 {
+    color: white;
+    margin-bottom: .4rem;
+ }
+
+ .contacts__me__info p {
+    color: gray;
+    margin-bottom: 2rem;
+ }
+
+ .contact__me-me {
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex-basis: 40% 60%; */
+}
+
+ .contact__right__info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2%;
+    margin-bottom: 6rem;
+}
+
+.contact__me__left p {
+    color: gray;
+    width: 54%;
+    line-height: 1.5;
+}
+
+.contact__right__info div h3 {
+    color: white;
+    font-size: 1rem;
+}
+
+/* .contact__right__info div {
+    border: 1px solid gray;
+} */
+
+/* .contact__right__info p {
+    padding: 4%;
+} */
+
+.__info {
+    border: 1px solid gray;
+}
+
+
+.__info p {
+    color: gray;
+    padding-top: .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.__info h3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: .4rem;
+}

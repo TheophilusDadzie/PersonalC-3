@@ -1,0 +1,90 @@
+.about__me__info h2 {
+    color: white;
+    font-size: 1.8rem;
+    margin-top: 5rem;
+    margin-bottom: .1rem;
+}
+
+.about__me__info p {
+    color: gray;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* ============= SKILLS SECTION ============== */
+.skills__info {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+/* ======== CARD ========= */
+.skills__info__one {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2%;
+}
+
+.shills__info_-card {
+    border: 1px solid gray;
+    margin-bottom: 4rem;
+    margin-top: -3rem;
+}
+
+.shills__info_-card h3 {
+    color: white;
+    font-size: 1rem;
+    padding: 3%;
+}
+
+.shills__info_-card p {
+    padding: 3%;
+    color: gray;
+}
+
+/* ======= MY FUN FACTS SECTION ========== */
+.my-fun {
+    margin-bottom: 2rem;
+}
+
+.my-fun-inner p {
+    display: inline-block;
+    color: gray;
+    border: 1px solid gray;
+    padding: .9%;
+    font-size: 1rem;
+    margin-bottom: .8rem;
+    margin-left: .7rem;
+}
+
+.my-fun-inner p span {
+    color: white;
+}
+
+.my-fun-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-fun-facts-info {
+    display: grid;
+    grid-template-columns: 1fr 40%;
+    margin-bottom: 5rem;
+}
+
+.fun-img1{
+    width: 90px;
+    position: relative;
+    right: -30px;
+    bottom: -30px;
+}
+
+.fun-img2 {
+    width: 60px;
+    position: absolute;
+    top: -40px;
+    left: -40px;
+}
+
+.my-fun-right {
+    position: relative;
+}
